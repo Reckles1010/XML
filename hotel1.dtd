@@ -1,0 +1,9 @@
+<!ELEMENT hotel (reserva+)>
+<!ELEMENT reserva (nombre, Documentacion, precio, pagado, planta, tipo)>
+<!ATTLIST reserva id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT Documentacion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT pagado (#PCDATA)>
+<!ELEMENT planta (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
