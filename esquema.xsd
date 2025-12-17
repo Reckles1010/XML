@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="hotel">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="reserva" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="documentacion" type="xs:string"/>
+                            <xs:element name="precio" type="xs:integer"/>
+                            <xs:element name="pagado" type="xs:string"/>
+                            <xs:element name="planta" type="xs:string"/>
+                            <xs:element name="tipo" type="xs:string"/>                            
+                        </xs:sequence>
+
+                        <xs:attribute name="id" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

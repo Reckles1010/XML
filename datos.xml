@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hotel SYSTEM "estructura.dtd">
+
+<hotel>
+
+    <reserva id="H120">
+        <nombre>Alberto Pérez</nombre>
+        <documentacion>12345678A</documentacion>
+        <pagado>Si</pagado>
+        <precio>100€</precio>
+        <tipo>Básica</tipo>
+        <planta>Primera</planta>
+    </reserva>
+
+    <reserva id="H230">
+        <nombre>Adrián López</nombre>
+        <documentacion>02345678F</documentacion>
+        <pagado>No</pagado>
+        <tipo>Doble</tipo>
+        <precio>160€</precio>
+        <planta>Segunda</planta>
+    </reserva>
+    
+    <reserva id="H165">
+        <nombre>Paula Sánchez</nombre>
+        <documentacion>72345678D</documentacion>
+        <pagado>No</pagado>
+        <tipo>Básica</tipo>
+        <precio>120€</precio>
+        <planta>Primera</planta>
+    </reserva>
+
+    <reserva id="H456">
+        <nombre>Javier García</nombre>
+        <documentacion>62345678C</documentacion>
+        <pagado>Si</pagado>
+        <tipo>Suite</tipo>
+        <precio>450€</precio>
+        <planta>Cuarta</planta>
+    </reserva>
+
+    <reserva id="H326">
+        <nombre>Pedro Muñoz</nombre>
+        <documentacion>32345678B</documentacion>
+        <pagado>No</pagado>
+        <tipo>Doble</tipo>
+        <precio>250€</precio>
+        <planta>Tercera</planta>
+    </reserva>
+
+</hotel>
